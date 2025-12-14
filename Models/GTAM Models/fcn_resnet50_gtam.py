@@ -13,9 +13,6 @@ class FCN_ResNet50_GTAM(nn.Module):
 
         base = fcn_resnet50(weights=None, weights_backbone=None, aux_loss=False)
 
-        # -----------------------------
-        # Backbone layers (IMPORTANT)
-        # -----------------------------
         self.conv1 = base.backbone['conv1']
         self.bn1   = base.backbone['bn1']
         self.relu  = base.backbone['relu']
@@ -26,7 +23,6 @@ class FCN_ResNet50_GTAM(nn.Module):
         self.layer3 = base.backbone['layer3']   # 1024 channels
         self.layer4 = base.backbone['layer4']   # 2048 channels
 
-        # Insert GTAM after layer1
         self.gtam = GaborTAM(in_channels=256)
 
 
@@ -44,7 +40,7 @@ class FCN_ResNet50_GTAM(nn.Module):
         x = self.maxpool(x)
 
         x = self.layer1(x)     # (B,256,H/4,W/4)
-        x = self.gtam(x)       # GTAM added here
+        x = self.gtam(x)       # GTAM 
 
         x = self.layer2(x)     # 512
         x = self.layer3(x)     # 1024
