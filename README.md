@@ -93,7 +93,7 @@ Until you update these paths to match your local filesystem, the training and te
 
 Pretrained weights used in the paper are to large can be found here:
 
->* will add link soon
+>* https://drive.google.com/drive/folders/1ZNHw8XAcIighbqpGsZcCHIx4RMbqFCSi?usp=sharing
 
 Each .pth file corresponds to the best performing checkpoint for that architecture/dataset combination.
 
