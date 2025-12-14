@@ -48,7 +48,7 @@ Baseline architectures
 
 * Models/GTAM Models/DeepLabV3_gtam.py – DeepLabV3 (ResNet-50) + GTAM
 
-* Models/GTAM Models/fcn_resnet50_gtam.py – FCN-ResNet50 + GTAM (aux/extra model)
+* Models/GTAM Models/fcn_resnet50_gtam.py – FCN-ResNet50 + GTAM (extra model)
 
 # Datasets
 
