@@ -91,7 +91,9 @@ Until you update these paths to match your local filesystem, the training and te
 
 # Trained Models
 
-Pretrained weights used in the paper are stored in Trained Models/:
+Pretrained weights used in the paper are to large can be found here:
+
+>* will add link soon
 
 Each .pth file corresponds to the best performing checkpoint for that architecture/dataset combination.
 
