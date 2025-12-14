@@ -1,5 +1,5 @@
 '''
-This code is borrowed from aladdinpersson/Machine-Learning-Collection
+Part of this code is borrowed from aladdinpersson/Machine-Learning-Collection
 '''
 import torch
 import torch.nn as nn
