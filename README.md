@@ -91,7 +91,7 @@ Until you update these paths to match your local filesystem, the training and te
 
 # Trained Models
 
-Pretrained weights used in the paper are to large can be found here:
+Pretrained weights used in the paper are to large to upload and can be found here:
 
 >* https://drive.google.com/drive/folders/1ZNHw8XAcIighbqpGsZcCHIx4RMbqFCSi?usp=sharing
 
