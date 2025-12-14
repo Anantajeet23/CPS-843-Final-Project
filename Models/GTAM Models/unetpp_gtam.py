@@ -1,5 +1,5 @@
 '''
-This code is borrowed from 4uiiurz1/pytorch-nested-unet
+Part of this code is borrowed from 4uiiurz1/pytorch-nested-unet
 '''
 
 import torch
